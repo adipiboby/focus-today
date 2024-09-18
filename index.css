@@ -1,0 +1,108 @@
+#body{
+    background-color: rgba(72,163,0,0.07);
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0 16px 32px;
+}
+.heading{
+    font-size: 64px;
+    color: #48A300;
+    text-align: center;
+    
+}
+.heading span{
+    color:#61481c
+}
+#background{
+    background-color: #fbfbfb;
+    
+    max-width: 660px;
+    margin-inline: auto;
+    border-radius: 12px;
+    padding:32px 48px;
+    box-shadow: 0 0 12px 0px black;
+    
+}
+.progress-bar{
+    height: 25px;
+    background-color: rgba(72, 163, 0, 0.1);
+    border-radius: 15px;
+}
+.progress-value{
+    height: 100%;
+    width: 66%;
+    background-color: #48A300;
+    border-radius: 15px;
+    color:#fbfbfb;
+    font-size: 10px;
+    font-weight: 400p;
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+}
+.error-label{
+    color: #FF5151;
+    font-size: 14px;
+    
+}
+
+.goal-container{
+    height: 82px;
+    border-radius:17px;
+    border :solid rgba(0,0,0,0.1);
+    display:flex;
+    align-items: center;
+    padding:0 22px;
+    background-color: #FFFFFF;
+    margin-bottom: 46px;
+}
+.custom-checkbox{
+    width:24px;
+    height: 24px;
+    border:2px solid rgba(97,72,28,0.3);
+    border-radius: 50px;
+
+}
+.goal-input{
+    margin-left: 22px;
+    font-family: inherit;
+    font-size: 16px;
+    outline:none;
+    margin: 2px solid white;
+
+}
+.goal-input::placeholder{
+    color:#D9D9D9;
+}
+#last-text{
+    align-items: center;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+}
+#last-text2{
+    align-items: center;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    color:#858585;
+    margin-top:64px;
+}
+
+.sun{
+height: 40px;
+vertical-align: middle;
+margin:16px;
+}
+progress{
+    accent-color: #48A300;
+}
+@media (max-width: 768px){
+.heading{
+    font-size: 32px;
+}
+.background{
+    padding:15px 32px
+}
+}
+
