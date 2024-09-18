@@ -104,5 +104,11 @@ progress{
 .background{
     padding:15px 32px
 }
+.goal-input{
+    width: 120px ;
+}
+.progress-label{
+    font-size:10px
+}
 }
 
