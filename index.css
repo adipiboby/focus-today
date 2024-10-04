@@ -61,15 +61,18 @@
     height: 24px;
     border:2px solid rgba(97,72,28,0.3);
     border-radius: 50px;
-
+    cursor: pointer;
 }
+
 .goal-input{
-    margin-left: 22px;
+    margin-left:5px;
     font-family: inherit;
     font-size: 16px;
     outline:none;
-    margin: 2px solid white;
-
+    flex-grow: 1;
+    border: none;
+    align-self: stretch;
+  
 }
 .goal-input::placeholder{
     color:#D9D9D9;
@@ -97,6 +100,14 @@ margin:16px;
 progress{
     accent-color: #48A300;
 }
+.completed .custom-checkbox{
+    background-color: #48A300;
+    border-color: #48A300;
+}
+.completed .goal-input{
+    color:#48A300;
+    text-decoration: line-through;
+}
 @media (max-width: 768px){
 .heading{
     font-size: 32px;
@@ -108,7 +119,19 @@ progress{
     width: 120px ;
 }
 .progress-label{
-    font-size:10px
+    font-size:20px
+}
+.goal-container{
+    height:64px;
+    margin-bottom: 24px;
+    border-radius: 12px;
+}
+.custom-checkbox{
+    height: 20px;
+    width: 20px;
+}
+#last-text2{
+    margin-top:32px;
 }
 }
 
