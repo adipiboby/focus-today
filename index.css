@@ -27,25 +27,41 @@
     height: 25px;
     background-color: rgba(72, 163, 0, 0.1);
     border-radius: 15px;
+    margin-bottom: 9dvh;
 }
 .progress-value{
     height: 100%;
-    width: 66%;
+    width: 0;
     background-color: #48A300;
     border-radius: 15px;
     color:#fbfbfb;
     font-size: 10px;
     font-weight: 400p;
-    padding-left: 20px;
+    /* padding-left: 20px; */
     display: flex;
     align-items: center;
+    overflow: hidden;
+  
+    
+}
+.progress-value span{
+    padding-left: 20px;
 }
 .error-label{
     color: #FF5151;
     font-size: 14px;
+    margin-block: 0px;
+    display:none;
+    position: absolute;
+    
     
 }
-
+#error-label-div{
+    margin: 10px;
+}
+.show-error  .error-label{
+    display:block;
+}
 .goal-container{
     height: 82px;
     border-radius:17px;
@@ -57,6 +73,7 @@
     margin-bottom: 46px;
 }
 .custom-checkbox{
+    
     width:24px;
     height: 24px;
     border:2px solid rgba(97,72,28,0.3);
@@ -108,6 +125,7 @@ progress{
     color:#48A300;
     text-decoration: line-through;
 }
+
 @media (max-width: 768px){
 .heading{
     font-size: 32px;
