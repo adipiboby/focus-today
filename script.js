@@ -27,7 +27,7 @@ const allQuotes = [
   "Raise the bar by completing your goals!",
   "Well begun is half done!",
   " just a step away, keep going!",
-  "whoa! You just completed all the goals, time for chill :D",
+  "whoa! You just completed all the goals, time for chill 😄",
 ];
 
 let completedGoalsCount = Object.values(allGoals).filter(
